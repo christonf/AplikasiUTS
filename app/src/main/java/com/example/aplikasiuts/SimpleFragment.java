@@ -69,12 +69,6 @@ public class SimpleFragment extends Fragment implements SensorEventListener {
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
 
-                // When map is loaded
-                LatLng vokasiUGM = new LatLng(-7.774869180828544, 110.37441481432154);
-                googleMap.addMarker(new MarkerOptions().position(vokasiUGM).title("SV UGM"));
-                //googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(vokasiUGM, 20));
-
                 setMapLongClick(mMap);
                 setPoiClick(mMap);
                 enableMyLocation();

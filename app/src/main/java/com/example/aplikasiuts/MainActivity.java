@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                         LinearLayout layout2 = (LinearLayout) findViewById(R.id.linear);
                         layout2.setVisibility(View.VISIBLE);
                         return true;
-                    case R.id.tes:
+                    case R.id.compass:
                         CompassFragment compassFragment = new CompassFragment();
                         fragmentTransaction.replace(R.id.frame_container, compassFragment).addToBackStack(null).commit();
 
