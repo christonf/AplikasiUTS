@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lokasi U</string>
+    <string name="hello_blank_fragment">Aplikasi Lokasimu</string>
+    <string name="latitude">Garis Lintang:</string>
+    <string name="longitude">Garis Bujur:</string>
+    <string name="country_name">Negara:</string>
+    <string name="locality">Lokalitas:</string>
+    <string name="address">Alamat:</string>
+    <string name="go_back">Kembali</string>
+    <string name="show_maps">Tampilkan Peta</string>
+    <string name="appwidget_text">CONTOH</string>
+    <string name="add_widget">Tambahkan Widget</string>
+    <string name="app_widget_description">Ini adalah deskripsi widget</string>
+    <string name="widget_id_label">ID Widget</string>
+    <string name="widget_update_label">Terakhir diupdate</string>
+    <string name="widget_button_update">Update sekarang</string>
+    <string name="widget_button_map">Tampilkan peta</string>
+    <string name="label">Lokasimu:</string>
+    <string name="language">Bahasa</string>
+    <string name="home">Beranda</string>
+    <string name="maps">Peta</string>
+    <string name="compass">Kompas</string>
+</resources>
